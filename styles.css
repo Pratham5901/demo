@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f3f3;
+}
+
+.cover {
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+    aspect-ratio: 2 / 3;
+    background: #c192a2;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    
+    box-sizing: border-box;
+    
+    flex-direction: column;
+    justify-content: space-between;
+    
+    padding-right: 0px;
+}
+
+.header {
+    background-color: #e94b3c;
+    padding: 20px;
+    padding-bottom: 0px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-left: 30px;
+    margin-bottom: 0px; 
+    margin-left: 100px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.title {
+    text-align: center;
+    font-size: 3vw;
+    
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    width: 50%; /* Adjust width to suit your layout */
+}
+
+.image-container img {
+    display: block;
+    width: 400px; /* Ensure the image scales to the container's width */
+    height: 350px; /* Maintain the aspect ratio of the image */
+    margin-left: 100px;;
+}
+
+.overlay {
+    position: absolute;
+    top: 0%;
+    left: 40.5%; /* Start the overlay from the middle of the container */
+    width: 400px; /* Make the overlay cover half of the container */
+    height: 40%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.overlay2 {
+    position: absolute;
+    top: 95%;
+    left: 125%; /* Start the overlay from the middle of the container */
+    width: 125px; /* Make the overlay cover half of the container */
+    height: 40%;
+    background-color: blue; /* Semi-transparent black background */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer {
+    display: flex;
+   
+}
+
+.logo{
+    display: block;
+    width: 70px; /* Adjust the width and height as needed */
+    height: 70px;
+    background-color: rgb(43, 255, 0); /* Adjust the background color as needed */
+    border-radius: 50%; /* Makes the div round */
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.container2 {
+    position: relative;
+    
+    padding: 20px;
+  }
+  p {
+    color: white;
+  }
+  .top-line::before, .bottom-line::before {
+    content: "";
+    display: block;
+   
+    background-color: white; /* Color of the line */
+    width: 100%; /* Width of the line */
+    height: 1px; /* Height of the line */
+  }
+  
+  .top-line::before {
+    top: 0;
+  }
+  
+  .bottom-line::before {
+    bottom: 0;
+  }
+  
+
+
+
+.container{
+    display: flex;
+}
+.box1{
+    display: block;
+  padding: 60px;
+    background-color: #942f23;
+}
+.box2{
+    display: block;
+    padding: 90px;
+      
+    background-color: #eea549;
+}
+
+@media only screen and (max-width: 600px) {
+    .cover {
+        width: 95%; /* Adjusted width for smaller screens */
+    }
+.overlay{
+    width: 100.5%;
+    margin-left: 7px;
+}
+
+    .title {
+        font-size: 5vw; /* Increased font size for smaller screens */
+    }
+
+    .image-container img {
+        width: 100%; /* Adjusted image width for smaller screens */
+        height: auto; /* Ensure aspect ratio is maintained */
+    }
+}
+@media only screen and (max-width: 400px) {
+    .header {
+        padding: 10px; /* Adjusted padding for smaller screens */
+    }
+
+    .box1,
+    .box2 {
+        padding: 10px; /* Adjusted padding for smaller screens */
+    }
+}
