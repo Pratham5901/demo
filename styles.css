@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
+    
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -17,7 +17,7 @@ body {
     background: #c192a2;
     border: 1px solid #ccc;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    position: relative;
+    
     
     box-sizing: border-box;
     
@@ -28,6 +28,7 @@ body {
 }
 
 .header {
+    padding-left: 0px;
     background-color: #e94b3c;
     padding: 20px;
     padding-bottom: 0px;
@@ -104,7 +105,7 @@ body {
     margin-top: 20px;
 }
 .container2 {
-    position: relative;
+   
     
     padding: 20px;
   }
@@ -137,12 +138,13 @@ body {
 .box1{
     display: block;
   padding: 60px;
-    background-color: #942f23;
+  padding-bottom: 30px;
+    background-color: #e94b3c;
 }
 .box2{
     display: block;
     padding: 90px;
-      
+    padding-bottom: 30px;
     background-color: #eea549;
 }
 
@@ -151,8 +153,8 @@ body {
         width: 95%; /* Adjusted width for smaller screens */
     }
 .overlay{
-    width: 100.5%;
-    margin-left: 7px;
+    width: 255px;
+    margin-left: 28px;
 }
 
     .title {
@@ -163,14 +165,32 @@ body {
         width: 100%; /* Adjusted image width for smaller screens */
         height: auto; /* Ensure aspect ratio is maintained */
     }
-}
-@media only screen and (max-width: 400px) {
-    .header {
-        padding: 10px; /* Adjusted padding for smaller screens */
+    p{
+        font-size: small;
     }
-
-    .box1,
-    .box2 {
-        padding: 10px; /* Adjusted padding for smaller screens */
+    .logo{
+        width: 50px;
+        height: 50px;
     }
+    .box1{
+       
+      padding-left: 50px;
+      padding-bottom: 20px;
+     height: 15px;
+    }
+    .box2{
+        
+        padding-left: 50px;
+      padding-bottom: 5px;
+      
+    }
+    .image-container img{
+        
+        width:255px;
+       height: 200px;
+    }
+   .overlay2{
+    width: 60px;
+    margin-left: 40px;
+   }
 }
