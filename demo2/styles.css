@@ -1,0 +1,30 @@
+.button{
+    display: inline-block; /* Make the span behave like an inline-block element */
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  padding: 15px 32px; /* Some padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* Remove underline */
+  font-size: 16px; /* Increase font size */
+  margin: 4px 2px; /* Some margin */
+  cursor: pointer; /* Pointer/hand icon */
+  border-radius: 12px; /* Rounded corners */
+  transition: background-color 0.3s ease;
+  width: 20px;
+  height: 20px;
+  border: 2px solid black;
+}
+#blue{
+    background-color: #4c56af;
+}
+#yellow{
+    background-color: #ecdd04;
+}
+#red{
+    background-color: #ec5113;
+}
+.center{height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
